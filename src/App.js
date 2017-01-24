@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const elementxd = <h1> xD </h1>;
+let button = <input type="button" />;
+
 class App extends Component {
   render() {
     return (
@@ -12,6 +15,8 @@ class App extends Component {
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+          {elementxd}
+          {button}
         </p>
       </div>
     );
