@@ -5,10 +5,6 @@ import './App.css';
 const elementxd = <h1> xD </h1>;
 let button = <input type="button" />;
 
-button.onClick() = function(event) {
-  elementxd.innerHTML = "XD xD XD";
-}
-
 class App extends Component {
   render() {
     return (
